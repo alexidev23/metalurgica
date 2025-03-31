@@ -1,6 +1,6 @@
 function SobreNosotros () {
   return (
-    <div className="flex flex-col items-center py-36 bg-[#02182B]">
+    <div id="sobrenosotros" className="flex flex-col items-center py-36 bg-[#02182B]">
       <h2 className="font-bold text-4xl uppercase">Sobre Nosotros</h2>
       <div className="flex flex-col md:flex-row xl:px-28 mt-14 md:mt-20 gap-10 w-full ">
         <p className="text-xl text-white px-8">

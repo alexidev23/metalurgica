@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Metalurgica Escobar",
   description: "Empresa de metalurgica",
+  icons: "/icono-talller.svg"
 };
 
 export default function RootLayout({
