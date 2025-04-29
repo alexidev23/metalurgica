@@ -1,9 +1,12 @@
+import { CardServicios } from "./Servicios/CardServicios";
+
+
 function Servicios () {
   const trabajos= [
     {
       id: 1,
       nombre: 'Torno',
-      descripcion: 'Descripción del servicio 1.',
+      descripcion: 'Diámetro máximo de giro sobre bancada: ~400 mm - Longitud máxima entre puntos: ~1000 mm - Velocidades del husillo: 8 a 12 rangos, de 30 a 2000 rpm - Potencia del motor principal: ~5.5 kW (7.5 HP) - Tipo de roscas: Métricas, Whitworth, modulares y DP',
       img: '/maquinas/torno-1.jpg',
     },
     {
@@ -49,17 +52,13 @@ function Servicios () {
       <h2 className="font-bold text-4xl uppercase">Servicios</h2>
       <div className="xl:w-[1100px] flex flex-col justify-center md:flex-row md:flex-wrap mt-10 gap-4">
         {trabajos.map((trabajos) => (
-          <div key={trabajos.id} className="flex flex-col items-center xl:px-0 w-[340px] xl:w-[500px] relative rounded-md overflow-hidden">
-            <img src={trabajos.img} alt={trabajos.nombre} className="w-full h-[200px] xl:w-[500px] xl:h-[250px]" />
-            <div className="absolute bg-gray-600/55 h-full w-full text-end flex justify-end items-end">
-              <h3 className="font-bold text-2xl mt-4 bg-blue-300/45 w-full p-4">{trabajos.nombre}</h3>
-            </div>
-            {/* <p className="text-gray-700">{trabajos.descripcion}</p>  */}
-          </div>
+          <CardServicios 
+            key={trabajos.id} trabajos={trabajos}
+          />
         ))}
-        <div className="w-[340px] xl:w-[500px]">
-          boton
-        </div>
+      </div>
+      <div className="w-[340px] xl:w-[500px] flex justify-center items-center my-10">
+        <button className='border px-16 py-2.5 rounded-4xl bg-white text-black font-semibold text-lg cursor-pointer transition-all duration-200 hover:bg-gray-300 hover:text-gray-800'>Solicitar Cotizacion</button>
       </div>
     </div>
   )
