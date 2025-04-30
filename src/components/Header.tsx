@@ -7,6 +7,7 @@ import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import Image from "next/image"
+import ContactModal from "./ContactModal"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,9 +36,7 @@ function Header() {
 
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
-          <Button asChild>
-            <Link href="/contacto">Solicitar Presupuesto</Link>
-          </Button>
+          <ContactModal trigger={<Button>Solicitar Cotizacion</Button>} />
         </div>
 
         {/* Mobile Menu */}
