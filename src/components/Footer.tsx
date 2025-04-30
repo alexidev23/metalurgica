@@ -9,11 +9,11 @@ function Footer () {
         <div className="flex flex-col md:flex-row  items-center justify-center gap-2 my-2.5">
           <article className="flex items-center justify-center gap-1.5">
             <Telefono color="white" width={20} height={20} />
-            <h6 className="text-md" >+54 911 234 5678</h6>
+            <h6 className="text-md" >+54 0351-8806943</h6>
           </article>
           <article className="flex items-center justify-center gap-1.5">
             <Mail color="white" width={20} height={20} />
-            <h6 className="text-md" >contact@metalurgicaescobar.com</h6>
+            <h6 className="text-md" >pescobarmetalurgica@gmail.com</h6>
           </article>
         </div>
         <div className="border-4 border-white w-full"></div>
