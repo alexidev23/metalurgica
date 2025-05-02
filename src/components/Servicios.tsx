@@ -63,7 +63,7 @@ function Servicios () {
   return (
     <div id="servicios" className="flex flex-col items-center py-20 bg-[#02182B] text-white">            
       <h2 className="font-bold text-4xl uppercase">Servicios</h2>
-      <div className="xl:w-[1100px] flex flex-col justify-center md:flex-row md:flex-wrap mt-10 gap-4">
+      <div className="w-full xl:w-[1100px] flex flex-col justify-center items-center md:flex-row md:flex-wrap mt-10 gap-4">
         {trabajos.map((trabajos) => (
           <CardServicios 
             key={trabajos.id} trabajos={trabajos}

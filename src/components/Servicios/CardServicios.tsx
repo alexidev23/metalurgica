@@ -23,7 +23,7 @@ export function CardServicios({ trabajos }: { trabajos: TrabajoProps }) {
       onTouchStart={() => setIsHovering(!isHovering)}
     >
       <CardContent className="p-0 relative">
-        <div className="relative w-full h-[200px] sm:h-[220px] md:h-[230px] xl:h-[250px]">
+        <div className="relative w-full h-[240px] sm:h-[220px] md:h-[230px] xl:h-[250px]">
           <Image
             src={trabajos.img || "/placeholder.svg"}
             alt={trabajos.nombre}
