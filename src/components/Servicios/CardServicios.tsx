@@ -25,7 +25,7 @@ export function CardServicios({ trabajos }: { trabajos: TrabajoProps }) {
       <CardContent className="p-0 relative">
         <div className="relative w-full h-[240px] sm:h-[220px] md:h-[230px] xl:h-[250px]">
           <Image
-            src={trabajos.img || "/placeholder.svg"}
+            src={trabajos.img}
             alt={trabajos.nombre}
             fill
             className={cn("object-cover transition-transform duration-300", isHovering ? "scale-105" : "")}

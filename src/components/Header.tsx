@@ -17,7 +17,7 @@ function Header() {
       <div className="container flex h-16 items-center justify-between pr-6">
         <div className="flex items-center">
           <Link href="/">
-            <Image src="/icono-talller.svg" alt="Logo" width={120} height={120} />
+            <Image src="/icono-talller.svg" alt="Logo de la metalurgica" width={120} height={120} />
           </Link>
         </div>
 
