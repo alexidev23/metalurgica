@@ -28,7 +28,7 @@ function SobreNosotros () {
         </div>
 
         <div className="w-full h-full">
-          <img src="/taller-frente.jpg" alt="" width={150} height={50} className="h-full w-full" />
+          <img src="/taller-frente.webp" alt="Taller de metalurgica" width={150} height={50} className="h-full w-full rounded-lg" />
         </div>
       </div>
     </div>

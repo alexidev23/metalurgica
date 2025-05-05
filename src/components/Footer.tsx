@@ -18,7 +18,7 @@ function Footer () {
         </div>
         <div className="border-4 border-white w-full"></div>
         <div className="flex gap-1.5 flex-wrap">
-          <span>Torneria</span>|<span>Fresados</span>|<span>Mortajadora</span>|<span>Creadora</span>|<span>Rectificadora</span>|<span>Cerrucho</span>|<span>Cerrucho</span>
+          <span>Torneria</span>|<span>Fresados</span>|<span>Mortajados</span>|<span>Creadora</span>|<span>Rectificadora</span>|<span>Cerrucho</span>
         </div>
         <p className="absolute bottom-3 text-xs">© 2025 by <a href="https://github.com/alexidev23" target="_blank" rel="noopener noreferrer">alexidev23</a></p>
       </div>
