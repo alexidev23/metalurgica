@@ -5,7 +5,7 @@ function SobreNosotros () {
       <div className="flex flex-col xl:flex-row items-center xl:px-28 mt-14 md:mt-20 gap-10 w-full">
         <div>
           <p className="text-md text-white px-8 md:w-[700px]">
-            En Metalúrgica Escobar, la pasión por el metal corre por nuestras venas. Somos una empresa familiar con más de 20 años de experiencia, donde cada pieza que fabricamos cuenta una historia de esfuerzo, precisión y orgullo por el trabajo bien hecho.
+            En Metalúrgica Escobar, la pasión por el metal corre por nuestras venas. Somos una empresa familiar con más de 35 años de experiencia, donde cada pieza que fabricamos cuenta una historia de esfuerzo, precisión y orgullo por el trabajo bien hecho.
           </p>
           <p className="text-md text-white px-8 md:w-[700px] mt-1.5">
           Desde nuestro taller en Barrio Residencial América, Córdoba, damos vida a engranajes, rectificados, piezas especiales, mortajados y mucho más, con una combinación única de tecnología, artesanía y dedicación total.
