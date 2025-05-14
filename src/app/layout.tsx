@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Metalúrgica Escobar | Taller en Cordoba',
   description: 'Taller metalúrgico Escobar especializado en mecanizado general, fresados, torneados, mortajado, engranajes y piezas especiales',
-  keywords: ['metalúrgica', 'Escobar', 'torneados', 'piezas a medida', 'rectificados', 'mecanizacion general', 'engranajes', 'piezas especiales']
+  keywords: ['metalúrgica', 'Escobar', 'torneados', 'piezas a medida', 'rectificados', 'mecanizacion general', 'engranajes', 'piezas especiales'],
+  robots: 'index, follow'
 };
 
 export default function RootLayout({
