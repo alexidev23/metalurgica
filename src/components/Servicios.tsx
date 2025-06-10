@@ -54,7 +54,7 @@ function Servicios () {
     },
     {
       id: 9,
-      nombre: 'Cerrucho',
+      nombre: 'Serrucho',
       descripcion: '',
       img: '/maquinas/cerrucho.webp',
     }
